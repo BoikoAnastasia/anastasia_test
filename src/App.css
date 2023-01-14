@@ -1,3 +1,11 @@
-body{
-    font-family: "Roboto";
+html,
+body,
+#root,
+.loading {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
 }

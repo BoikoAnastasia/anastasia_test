@@ -52,6 +52,9 @@ form{
     display: flex;
     flex-wrap: wrap;
     padding: 34px 0px 0 25px;
+
+
+    
 }
 
 .project {
@@ -160,6 +163,8 @@ form{
     font-weight: 400;
     line-height: calc(32.81/28*100%);
     margin: 62px 0px 0px 0px;
+    
+    
 }
 
 /* pages */
@@ -168,6 +173,9 @@ form{
     display: flex;
     justify-content: flex-start;
     padding: 0px 0px 30px 25px;
+
+    margin-top: auto;
+
 }
 
 .number,

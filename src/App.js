@@ -48,8 +48,8 @@ function App() {
     <div className="App">
       <Header getSearchData={getSearchData} />
       {loadingPage
-        ? <LoadingPage />
-        : <Mein className="mein" projects={currentPosts} />
+        ? <LoadingPage/>
+        : <Mein projects={currentPosts} />
       }
       <Pagination className="footer"
         listProgects={listProgects.length}
