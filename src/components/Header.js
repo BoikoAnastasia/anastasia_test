@@ -9,6 +9,7 @@ const Header = ({ getSearchData }) => {
     const onFormSubmit = (e) => {
         e.preventDefault();
         getSearchData(value);
+        setValue('')
     }
 
     return (
@@ -16,6 +17,7 @@ const Header = ({ getSearchData }) => {
             <div className="header_body">
                 <form onSubmit={onFormSubmit}>
                     <input className="search"
+                        value={value}
                         size="400"
                         placeholder='Начните вводить текст для поиска (не менее трех символов)'
                         onChange={(e) => setValue(e.target.value)}

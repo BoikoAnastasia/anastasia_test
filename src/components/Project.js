@@ -10,8 +10,11 @@ const Project = ({ item }) => {
 
     const onFormSubmit = (e) => {
         e.preventDefault();
-        localStorage.setItem(item.id, inputValue)
-        setInputValue("")
+        if (!inputValue) { return }
+        else {
+            localStorage.setItem(item.id, inputValue)
+            setInputValue("")
+        }
     }
 
     return (
