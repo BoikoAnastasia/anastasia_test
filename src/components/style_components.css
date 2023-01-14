@@ -13,7 +13,7 @@ button[type='submit'] {
     background-color: transparent;
 }
 
-form{
+form {
     display: flex;
 }
 
@@ -52,9 +52,6 @@ form{
     display: flex;
     flex-wrap: wrap;
     padding: 34px 0px 0 25px;
-
-
-    
 }
 
 .project {
@@ -163,15 +160,15 @@ form{
     font-weight: 400;
     line-height: calc(32.81/28*100%);
     margin: 62px 0px 0px 0px;
-    
-    
+
+
 }
 
 /* pages */
 .numberPages {
     position: relative;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding: 0px 0px 30px 25px;
 
     margin-top: auto;
@@ -211,7 +208,7 @@ form{
 .pagesNamber {
     display: flex;
     flex-direction: row;
-    margin: 0px 0px 0px 700px;
+
 }
 
 .arrowkImg {
@@ -238,4 +235,14 @@ form{
 
 ._active {
     background-color: #00A3FF;
+}
+
+@media (max-width: 550px) {
+    .project {   
+        padding: 10px 195px 1px 16.4px;
+        margin: 0px 105px 23px 0px;
+    }
+    .mein{
+        justify-content: center;
+    }
 }
